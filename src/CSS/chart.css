@@ -1,0 +1,19 @@
+.bar-chart {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.style-chart {
+    width: 50%;
+}
+
+@media (max-width: 800px) {
+    .bar-chart {
+        flex-direction: column;
+    }
+
+    .style-chart {
+        width: 100%;
+    }
+}

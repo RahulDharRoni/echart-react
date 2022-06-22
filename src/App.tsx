@@ -1,24 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Barchart from './Component/Barchart';
+import Scatterplot from './Component/Scatterplot';
+import Scatterplot2 from './Component/Scatterplot2';
+import './CSS/chart.css'
 
-function App() {
+const App: React.FC = () => {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='bar-chart'>
+      <div className='style-chart'>
+        <Barchart></Barchart>
+      </div>
+      <div className='style-chart'>
+        <Scatterplot></Scatterplot>
+      </div>
+      <div className='style-chart'>
+        <Scatterplot2></Scatterplot2>
+      </div>
+
     </div>
   );
 }
