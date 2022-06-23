@@ -1,3 +1,13 @@
+# screenshots
+
+img(https://i.ibb.co/t2HVc9N/screencapture-localhost-3000-2022-06-23-11-54-26.jpg)
+
+
+# About the project 
+
+This is a simple Echart integration for graphical representation. Three chars available in the site. I user Typescript , Echart and vanilla css developing the site. 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
